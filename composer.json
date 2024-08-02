@@ -1,0 +1,18 @@
+{
+    "name": "victus/projet-semestre2-php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Victus\\ProjetSemestre2Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Momodev",
+            "email": "devmomo111@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "^5.3"
+    }
+}
