@@ -3,7 +3,12 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Victus\\ProjetSemestre2Php\\": "src/"
+            "App\\": "src/",
+            "App\\Core\\": "src/core/",
+            "App\\Core\\Validator\\": "src/core/validator/",
+            "App\\Core\\Session\\": "src/core/session/",
+            "App\\Controllers\\": "src/controllers/",
+            "App\\Models\\": "src/models/"
         }
     },
     "authors": [
